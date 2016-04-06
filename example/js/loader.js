@@ -6,7 +6,7 @@ require.config({
     baseUrl : 'js',
     paths : {
         jquery : 'lib/jquery',
-        bannerFlip : 'plugins/BannerFlip',
+        bannerFlip : 'lib/BannerFlip',
         css : 'lib/css',
         /*
          * @model page
