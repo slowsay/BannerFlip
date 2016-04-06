@@ -6,7 +6,7 @@ require.config({
     baseUrl : 'js',
     paths : {
         jquery : 'lib/jquery',
-        bannerFlip : 'lib/BannerFlip',
+        BannerFlip : 'lib/BannerFlip',
         css : 'lib/css',
         /*
          * @model page
@@ -14,7 +14,7 @@ require.config({
         base : 'app/base'
     },
     shim : {
-        base : ['jquery', 'bannerFlip', 'css!../css/main.css']
+        base : ['jquery', 'BannerFlip', 'css!../css/main.css']
     }
 });
 require(['base'], function(a) {
