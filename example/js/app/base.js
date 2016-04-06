@@ -31,6 +31,6 @@ define(function(require) {
         pic : 'http://img1.cache.netease.com/catchpic/F/F6/F6906BFEF5A112982F8F97A08F0C4270.jpg',
         url : ',http://news.163.com/16/0405/19/BJTNC1N50001124J.html'
     }];
-    var BannerFlip = require('bannerFlip');
+    var BannerFlip = require('BannerFlip');
     var _banner = new BannerFlip('newbox', _data, 1, 0, 298, 173);
 });
